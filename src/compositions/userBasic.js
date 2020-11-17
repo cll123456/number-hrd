@@ -5,7 +5,7 @@ import { getDoubleArray } from './../util/utils'
 // 实现方式， 使用一个二维数组， 横向是行，纵向是列
 let numberArrsRef = ref([]);
 // 当前是第几关
-let currentGKRef = ref(0);
+let currentGKRef = ref(1);
 
 const generateGame = () => {
   // 获取页面显示的值
